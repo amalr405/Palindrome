@@ -1,7 +1,6 @@
 import React , {useState,useEffect} from 'react';
 import './Palindrome.css'
 
-
 const Palindrome = () => {
   const [name,setname] = useState('');
   const [checkresult,setcheckresult] = useState('');
@@ -15,8 +14,7 @@ const Palindrome = () => {
   }
 
   const palchecker = (e) => {
-    
-    if(document.getElementById('input').value === ''){
+    if(document.getElementById('input').value.match(/\s+/)){
       setcheckresult(()=>'Please enter input')
     }else{
     var s = [],checker = true;
