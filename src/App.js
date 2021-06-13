@@ -14,9 +14,7 @@ const Palindrome = () => {
   }
 
   const palchecker = (e) => {
-    if(document.getElementById('input').value.match(/\s+/) || document.getElementById('input').value === ''){
-      setcheckresult(()=>'Please enter input')
-    }else{
+    if(document.getElementById('input').value.match(/\w+/)){
     var s = [],checker = true;
     var str = document.getElementById('input').value;
     str = str.split(' ')
@@ -37,6 +35,8 @@ const Palindrome = () => {
       }else {
        setcheckresult(()=>`${name} is not Palindrome`)
       }
+    }else{
+      setcheckresult(()=>'Please enter input')
     }
   } 
   return (
