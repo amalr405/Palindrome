@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Palindrome/static/css/main.b7a92b15.chunk.css",
+    "main.js": "/Palindrome/static/js/main.6a7d1db2.chunk.js",
+    "main.js.map": "/Palindrome/static/js/main.6a7d1db2.chunk.js.map",
+    "runtime-main.js": "/Palindrome/static/js/runtime-main.cbdf0573.js",
+    "runtime-main.js.map": "/Palindrome/static/js/runtime-main.cbdf0573.js.map",
+    "static/js/2.0fc05bca.chunk.js": "/Palindrome/static/js/2.0fc05bca.chunk.js",
+    "static/js/2.0fc05bca.chunk.js.map": "/Palindrome/static/js/2.0fc05bca.chunk.js.map",
+    "index.html": "/Palindrome/index.html",
+    "static/css/main.b7a92b15.chunk.css.map": "/Palindrome/static/css/main.b7a92b15.chunk.css.map",
+    "static/js/2.0fc05bca.chunk.js.LICENSE.txt": "/Palindrome/static/js/2.0fc05bca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbdf0573.js",
+    "static/js/2.0fc05bca.chunk.js",
+    "static/css/main.b7a92b15.chunk.css",
+    "static/js/main.6a7d1db2.chunk.js"
+  ]
+}
